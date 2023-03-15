@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = window.location.origin;
 
 const urls: Record<string, string> = {
   reuse_argentina: `${BASE_URL}/dashboard?country=argentina`,
